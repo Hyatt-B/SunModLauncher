@@ -1,0 +1,64 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: black;
+}
+nav {
+    background-color: #333;
+    overflow: hidden;
+    border-radius: 15px;
+    width: 800px;
+    margin: 0 auto;
+    height: 75px;
+}
+
+nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+nav ul li {
+    float: left;
+}
+
+nav ul li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+nav ul li a:hover {
+    background-color: #111;
+}
+
+.quickplay {
+    width: 100px; 
+    height: auto;
+}
+
+.hypixel-icon {
+    width: 40px;
+    height: auto;
+    margin: 14px 16px;
+    background: transparent;
+    border-radius: 10px;
+    padding: 0;
+}
+
+.quickplay-button {
+    background-color: #333;
+    color: white;
+    border: none;
+    border-radius: 10px;
+    padding: 10px 20px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
+}
